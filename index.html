@@ -16,35 +16,56 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Darcy.com</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+            <section id="outer-area">
+                <div id="navigation">
+                    <ul>
+                        <li class="nav-list active">
+                            <a href="#">
+                                <span class="nav-icon"><i class="fas fa-home"></i></span>
+                                <span class="nav-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#">
+                                <span class="nav-icon"><i class="far fa-id-badge"></i></span>
+                                <span class="nav-text">profile</span>
+                            </a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#">
+                                <span class="nav-icon"><i class="fas fa-envelope-open-text"></i></span>
+                                <span class="nav-text">messages</span>
+                            </a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#">
+                                <span class="nav-icon"><i class="far fa-address-book"></i></span>
+                                <span class="nav-text">contacts</span>
+                            </a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#">
+                                <span class="nav-icon"><i class="fas fa-photo-video"></i></span>
+                                <span class="nav-text">photos</span>
+                            </a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#">
+                                <span class="nav-icon"><i class="fas fa-project-diagram"></i></span>
+                                <span class="nav-text">projects</span>
+                            </a>
+                        </li>
+                        <li class="nav-list">
+                            <a href="#">
+                                <span class="nav-icon"><i class="fab fa-github"></i></span>
+                                <span class="nav-text">github</span>
+                            </a>
+                        </li>
+                        <div class="indicator"></div>
+                    </ul>
+        
                 </div>
-            </nav>
+            
             <!-- Header-->
             <header class="purple py-5">
                 <div class="container px-5">
@@ -225,6 +246,31 @@
                 </div>
             </div>
         </footer>
+        <style>
+            #btn{
+                padding: 5px 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: blue;
+                color: white;
+                border-radius: 30%;
+                text-decoration: none;
+                font-size: 15px;
+            }
+            #btn a{
+                color: white;
+                text-decoration: none;
+            }
+            body{
+                background-image: url(assets/images/css.jpeg);
+            }
+        </style>
+    
+    
+    
+    
+    
+        <script src="assets/script/magic.js" ></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
